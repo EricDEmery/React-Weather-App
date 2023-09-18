@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import axios from 'axios'
 import './App.css';
 
-function App() {
+export default function App() {
 
   function getWeatherData() {
 
@@ -22,6 +22,9 @@ function App() {
     }
 
   return (
+    <>
+    getWeatherData()
+    </>
+        )
 
-
-export default App;
+}
